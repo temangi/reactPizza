@@ -4,7 +4,7 @@ import style from "../index.module.scss";
 import vector from "../../img/Vector.svg";
 
 export const Sort = () => {
-  const [type, setType] = useState("all");
+  const [type, setType] = useState("alll");
   const [openModal,setOpenModal] = useState(false)
   const [typeOfPizza,setTypeOfPizza] = useState(0)
 
@@ -18,7 +18,7 @@ export const Sort = () => {
       <ul>
         <li
           className={type === "all" ? "active_button" : style.li}
-          onClick={() => clickType("all")}
+          onClick={() => clickType("alll")}
         >
           Все
         </li>
